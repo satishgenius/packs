@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDFAFA"
+    tools:context="com.packs.packs.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:letterSpacing="0.02"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="35dp"
+        android:text="Choose best \nConsulant Doctor" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#605B5B"
+        android:textStyle="bold"
+        android:text="Find the best doctor, consulant and specicalist\nin your town/city .Easy to collabrate" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:background="@drawable/button1"
+        android:layout_marginTop="20dp"
+        android:letterSpacing="0.02"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:onClick="started"
+        android:layout_marginLeft="30dp"
+        android:text="Get started now" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="40sp"
+        app:srcCompat="@drawable/bunty" />
+
+
+</LinearLayout>
